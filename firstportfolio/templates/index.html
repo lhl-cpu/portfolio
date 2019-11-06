@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -70,7 +71,7 @@
                 <p class="lead text-muted">相册(Photo album)又称影集或照片集，是用来装放相片的物品，相册主要用来收藏和保护相片使用。相册的材料有多种，通常相册由纸壳和PVC插袋制作而成，相册的表面通常为精美的图样设计，如山水风景、明星肖像等。</p>
                 <p>
                     <a href="blog/" class="btn btn-primary my-2">我的博客</a>
-                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    <a href="{% static "readme.pdf" %}" class="btn btn-secondary my-2">我的简历</a>
                 </p>
             </div>
         </section>

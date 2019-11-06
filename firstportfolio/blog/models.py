@@ -11,4 +11,4 @@ class Blog(models.Model):
 		return self.title
 
 	def shorttext(self):
-		return self.text[:88] + "..."
+		return self.text[:50] + "..."
